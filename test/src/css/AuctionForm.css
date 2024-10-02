@@ -1,0 +1,59 @@
+.auction-form {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .auction-header {
+    text-align: center;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .step {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .step.active {
+    background-color: #002f6c;
+    color: white;
+  }
+  
+  .category-selection {
+    margin-top: 20px;
+  }
+  
+  .selection-group, .sub-category, .details-input {
+    margin-bottom: 20px;
+  }
+  
+  .next-step {
+    padding: 10px 20px;
+    background-color: #002f6c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .fee-info {
+    margin-top: 10px;
+  }
+  
+  .fee {
+    color: red;
+  }
+  
+  .footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+  }
+
+  

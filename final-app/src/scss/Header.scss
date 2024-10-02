@@ -1,0 +1,74 @@
+.Header{
+    .header-container {
+            position: relative;
+    }
+
+    .header {
+        display: flex;
+        width: 1400px;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        border-top: 1px solid black;
+        border-bottom: 1px solid #bfbfbf;
+    }
+
+    .cb_icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .header_category {
+        display: flex;
+        align-items: center;
+        justify-items: space-between;
+        gap: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .header_searchbox {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 285px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #bfbfbf;
+    }
+
+    .header_hovermenu {
+        display: flex;
+        top: 100%;
+        left: 0;
+        width: 1400px;
+        height: 400px;
+        justify-content: space-between;
+        background-color: white;
+        border-bottom: 1px solid black;
+        margin-top: 10px;
+    }
+
+    .hover_category {
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 155px;
+    }
+
+    .hover_category1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th {
+        width: 105px;
+        height: 40px;
+    }
+}
